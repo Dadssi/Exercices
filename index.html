@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-Variables</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    console.log("============================================================")
+    console.log("=== Exercice 1 : Déclaration et affectation de variables ===")
+    console.log("============================================================")
+    var prenom = "Mohamed Abdelhak"
+    console.log("Prénom : " + prenom)
+
+    console.log("============================================================")
+    console.log("=== Exercice 2 : Manipulation des variables numériques ===")
+    console.log("============================================================")
+    var a = 20
+    var b = 4
+
+    console.log(`le premier variable est : ${a}\nle deuxieme variable est : ${b}`)
+
+    var addition = a + b
+    var soustraction = a - b
+    var multiplication = a * b
+    var division = a / b
+
+    console.log("la somme des deux variables est      : " + addition)
+    console.log("la différence des deux variables est : " + soustraction)
+    console.log("le produit des deux variables est    : " + multiplication)
+    console.log("le quotient des deux variables est   : " + division)
+
+    console.log("============================================================")
+    console.log("=== Exercice 3 : conaténation de chaines de caractères ===")
+    console.log("============================================================")
+
+    var nom = "Dadssi "
+    var prenom = "Mohamed Abdelhak"
+
+    var nomComplet = nom + prenom
+
+    console.log("le nom complet est : " + nomComplet)
+
+    console.log("============================================================")
+    console.log("=== Exercice 4 : Utilisation des variables booléennes ===")
+    console.log("============================================================")
+
+    var age = 33
+    var majeur
+
+    if (age >= 18){
+        majeur = true
+    }else{
+        majeur = false
+    }
+
+    console.log("est il majeur ? , " + majeur)
+
+    console.log("============================================================")
+    console.log("=== Exercice 5 : Échange de valeurs entre deux variables ===")
+    console.log("============================================================")
+    
+    var x = 20
+    var y = 33
+
+    console.log(`x = ${x}\ny = ${y}`)
+
+    x = x + y
+    y = x - y
+    x = x - y
+
+    console.log(`x = ${x}\ny = ${y}`)
+
+    console.log("============================================================")
+    console.log("=== Exercice 6 : Calcul de la circonférence d'un cercle ===")
+    console.log("============================================================")
+    
+    var rayon = 4
+    var circonference  = 2 * 3.14 * rayon
+
+    console.log(`circonférence  = ${circonference}`)
+
+    console.log("============================================================")
+    console.log("=== Exercice 7 : Conversion de température ===")
+    console.log("============================================================")
+    
+    var celsius = 10
+    var fahrenheit   = celsius * (9/5) + 32
+
+    console.log(`la température en Fahrenheit est = ${fahrenheit}`)
+
+    console.log("============================================================")
+    console.log("=== Exercice 8 : Calcul de l'âge ===")
+    console.log("============================================================")
+    
+    var anneNaissance = 1990
+    var anneeActuelle   = 2024
+    var age = anneeActuelle - anneNaissance 
+
+    console.log(`l'age est = ${age}`)
+
+    console.log("============================================================")
+    console.log("=== Exercice 9 : Calcul du périmètre d'un rectangle ===")
+    console.log("============================================================")
+    
+    var longeur = 14
+    var largeur   = 10
+    var perimetre = longeur * largeur 
+
+    console.log(`le périmètre du Rectangle est = ${perimetre}`)
+
+    console.log("============================================================")
+    console.log("=== Exercice 10 : Moyenne de trois nombres ===")
+    console.log("============================================================")
+    
+    var note1 = 15
+    var note2 = 20
+    var note3 = 10
+    var moyenne = (note1 + note2 + note3) / 3
+
+    console.log(`la moyenne des notes est = ${moyenne}`)
+
+</script>
+</html>
